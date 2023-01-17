@@ -404,9 +404,10 @@ button {
   flex-wrap: wrap;
   gap: 30px;
 }
-/* .workers-pos {
-  
-} */
+.workers-pos:hover,
+.workers-pos:focus {
+  box-shadow: 2px 2px 2px 0 var(--text-footer);
+}
 .workers-text {
   background: var(--header-bg);
   border-top: 0;
