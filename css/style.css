@@ -90,6 +90,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  min-width: 1600px;
+  margin: 0 auto;
   padding: 200px 0;
 }
 .hero-color-text {
@@ -142,7 +144,7 @@ ul {
   margin-left: auto;
 }
 .contacts-up .item-li + .item-li {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .contacts-icon {
   fill: currentColor;
@@ -305,7 +307,7 @@ ul.feature-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 270px;
+  /* width: 270px; */
   height: 120px;
   background-color: var(--portfolio-bg);
   border-radius: 4px;
@@ -386,7 +388,7 @@ button {
   letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .working-button:not(:last-child) {
   margin-right: 8px;
@@ -394,7 +396,7 @@ button {
 
 /* Portfolio html */
 .portfolio-item {
-  padding-top: 45px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .workers-lt {
